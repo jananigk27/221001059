@@ -38,7 +38,7 @@ public class amtService {
         customerRepository.deleteById(id);
     }
 
-    // ✅ Method to shorten URL using ulvis API
+    I
     public String shortenUrl(String longUrl, String customName) {
         RestTemplate restTemplate = new RestTemplate();
 
